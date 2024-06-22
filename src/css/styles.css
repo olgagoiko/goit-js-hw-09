@@ -30,7 +30,7 @@
   list-style-type: none;
   width: 1440px;
   max-height: 100%;
- padding: 0;
+  padding: 0;
   background: #fff;
   justify-content: center;
   gap: 24px;
@@ -49,17 +49,18 @@
   width: 1112px;
   height: 640px;
   box-shadow: 0 4px 4px 0 rgba(7, 7, 7, 0.25);
- }
+}
 
 .feedback-form {
-gap: 16px;
-border-radius: 8px;
-padding: 24px;
-width: 408px;
-height: 296px;
-background: #fff;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 296px;
+  background: #fff;
 
 }
+
 label {
   display: flex;
   align-items: flex-start;
@@ -73,11 +74,11 @@ label {
 
 input {
   border: 1px solid #808080;
-border-radius: 4px;
-width: 360px;
-height: 40px;
-margin-bottom: 8px;
-padding-left: 16px;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin-bottom: 8px;
+  padding-left: 16px;
 }
 
 
@@ -92,13 +93,13 @@ input:hover {
 
 textarea {
   border: 1px solid #808080;
-border-radius: 4px;
-width: 360px;
-height: 80px;
-margin-bottom: 18px;
-padding-left: 16px;
-padding-top: 8px;
-resize: none;
+  border-radius: 4px;
+  width: 360px;
+  height: 80px;
+  margin-bottom: 18px;
+  padding-left: 16px;
+  padding-top: 8px;
+  resize: none;
 }
 
 textarea:active {
@@ -110,17 +111,17 @@ textarea:hover {
 }
 
 button {
-border-radius: 8px;
-padding: 8px 16px;
-width: 95px;
-height: 40px;
-background: #4e75ff;
-border: none;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
 button:hover,
