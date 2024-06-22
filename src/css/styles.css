@@ -51,3 +51,26 @@
   box-shadow: 0 4px 4px 0 rgba(7, 7, 7, 0.25);
  
 }
+
+.feedback-form {
+  display: flex;
+  align-items: flex-start;
+    flex-direction: column;
+  gap: 16px;
+  border-radius: 8px;
+padding: 24px;
+width: 408px;
+height: 296px;
+background: #fff;
+}
+.feedback-form label {
+  display: flex;
+  align-items: flex-start;
+ 
+  flex-direction: column;
+  gap: 8px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42; 
+}
